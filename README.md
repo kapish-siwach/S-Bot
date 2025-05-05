@@ -21,4 +21,4 @@ A modern Android chat application that integrates **Google's Gemini API** to pro
 - Android Jetpack Libraries
 
 ## Download and try
-https://github.com/kapish-siwach/S-Bot/releases/download/v0.01/S-bot.0.01.apk
+https://github.com/kapish-siwach/S-Bot/releases/download/v0.01/S.Bot.apk

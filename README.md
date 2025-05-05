@@ -1,28 +1,24 @@
-🔮 Jetpack Gemini Chat App
-A modern Android chat application built with Jetpack Compose, Retrofit, and Google's Gemini API (Generative AI) to deliver real-time conversational AI responses. The app showcases how to integrate a large language model API with a clean, scalable architecture using Android's recommended libraries and practices.
+# 🔮 Jetpack Gemini Chat App
 
-✨ Features
-🔗 Gemini API Integration – Seamlessly connects to Google's Gemini API for intelligent, contextual chatbot responses.
+A modern Android chat application that integrates **Google's Gemini API** to provide AI-powered conversational experiences. Built using **Jetpack Compose**, **Retrofit**, and **MVVM architecture**, this app demonstrates how to create a responsive chat interface with real-time LLM responses.
 
-💬 Chat Interface – Clean and responsive chat UI built with Jetpack Compose.
+## ✨ Features
 
-🔧 Retrofit + Coroutines – Robust networking layer using Retrofit and Kotlin Coroutines.
+- 🔗 **Gemini API Integration** – Communicates with Google’s Gemini API for intelligent, contextual replies.
+- 💬 **Chat UI** – Sleek and reactive UI using **Jetpack Compose**.
+- ⚙️ **Retrofit + Coroutines** – Handles networking asynchronously and efficiently.
+- 🧠 **MVVM Architecture** – Clean separation of concerns using ViewModel and state management.
+- 🧩 **Hilt DI** – Simplifies dependency injection for better scalability and testing.
+- 🎨 **Material Design 3** – UI follows modern Android design guidelines.
 
-🔁 MVVM Architecture – Follows best practices with ViewModel and LiveData/State.
+## 🛠 Built With
 
-⚡ Dependency Injection – Powered by Hilt for modular and testable code.
+- Kotlin
+- Jetpack Compose
+- Retrofit
+- Google Gemini API
+- Kotlin Coroutines
+- Android Jetpack Libraries
 
-📱 Material Design – Elegant UI with Material Design 3 components.
-
-🛠️ Built With
-Kotlin
-
-Jetpack Compose
-
-Retrofit
-
-Gemini API (via REST or client SDK)
-
-Hilt for DI
-
-Coroutine-based architecture
+## Download and try
+https://github.com/kapish-siwach/S-Bot/releases/download/v0.01/S-bot.0.01.apk

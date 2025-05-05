@@ -116,7 +116,7 @@ fun MyAiScreen(modifier: Modifier = Modifier) {
                                 chatItems += ChatItem("Thinking...", UserType.AI)
 
                                 viewModel.generateContent(
-                                    apiKey = "API KEY",
+                                    apiKey = "AIzaSyCm7SKfpTE6JtUESP-UPdVBePYa0tXkbOw",
                                     text = inputText
                                 )
                             }

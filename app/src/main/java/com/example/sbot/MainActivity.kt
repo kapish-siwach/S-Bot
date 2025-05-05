@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -32,6 +33,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -83,8 +85,14 @@ fun MyAiScreen(modifier: Modifier = Modifier) {
 
     Column(modifier.fillMaxSize().imePadding()) {
         Scaffold (
+            topBar = {
+                TopAppBar(
+                    title = { Text("S Bot your AI Assistant") },
+                    modifier = Modifier.fillMaxWidth().background(color = Color.Transparent)
+                )
+            },
             bottomBar = {
-                BottomAppBar {
+                BottomAppBar(modifier=Modifier.background(color = Color.Transparent)) {
                     Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
                         if (isThinking){
                             placeholderr.value="Thinking..."

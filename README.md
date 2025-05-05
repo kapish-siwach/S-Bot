@@ -20,17 +20,5 @@ A modern Android chat application that integrates **Google's Gemini API** to pro
 - Kotlin Coroutines
 - Android Jetpack Libraries
 
-## 📱 Screenshots
-
-<!-- Add screenshots here -->
-<!-- Example:
-<img src="screenshots/chat_ui.png" width="300" />
-![Screenshot_20250505_170912_S Bot](https://github.com/user-attachments/assets/c9399de1-c61e-4e19-952e-609caeea8393)
-
-
-![Screenshot_20250505_170912_S Bot](https://github.com/user-attachments/assets/59a3d704-6464-435e-9bf3-1ca706ee8b77)
-
-
-![Screenshot_20250505_170912_S Bot](https://github.com/user-attachments/assets/55724734-cd74-4c0a-ab99-cdc92f2589e0)
-
--->
+## Download and try
+https://github.com/kapish-siwach/S-Bot/releases/download/v0.01/S-bot.0.01.apk

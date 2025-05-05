@@ -1,28 +1,36 @@
-🔮 Jetpack Gemini Chat App
-A modern Android chat application built with Jetpack Compose, Retrofit, and Google's Gemini API (Generative AI) to deliver real-time conversational AI responses. The app showcases how to integrate a large language model API with a clean, scalable architecture using Android's recommended libraries and practices.
+# 🔮 Jetpack Gemini Chat App
 
-✨ Features
-🔗 Gemini API Integration – Seamlessly connects to Google's Gemini API for intelligent, contextual chatbot responses.
+A modern Android chat application that integrates **Google's Gemini API** to provide AI-powered conversational experiences. Built using **Jetpack Compose**, **Retrofit**, and **MVVM architecture**, this app demonstrates how to create a responsive chat interface with real-time LLM responses.
 
-💬 Chat Interface – Clean and responsive chat UI built with Jetpack Compose.
+## ✨ Features
 
-🔧 Retrofit + Coroutines – Robust networking layer using Retrofit and Kotlin Coroutines.
+- 🔗 **Gemini API Integration** – Communicates with Google’s Gemini API for intelligent, contextual replies.
+- 💬 **Chat UI** – Sleek and reactive UI using **Jetpack Compose**.
+- ⚙️ **Retrofit + Coroutines** – Handles networking asynchronously and efficiently.
+- 🧠 **MVVM Architecture** – Clean separation of concerns using ViewModel and state management.
+- 🧩 **Hilt DI** – Simplifies dependency injection for better scalability and testing.
+- 🎨 **Material Design 3** – UI follows modern Android design guidelines.
 
-🔁 MVVM Architecture – Follows best practices with ViewModel and LiveData/State.
+## 🛠 Built With
 
-⚡ Dependency Injection – Powered by Hilt for modular and testable code.
+- Kotlin
+- Jetpack Compose
+- Retrofit
+- Google Gemini API
+- Kotlin Coroutines
+- Android Jetpack Libraries
 
-📱 Material Design – Elegant UI with Material Design 3 components.
+## 📱 Screenshots
 
-🛠️ Built With
-Kotlin
+<!-- Add screenshots here -->
+<!-- Example:
+<img src="screenshots/chat_ui.png" width="300" />
+![Screenshot_20250505_170912_S Bot](https://github.com/user-attachments/assets/c9399de1-c61e-4e19-952e-609caeea8393)
 
-Jetpack Compose
 
-Retrofit
+![Screenshot_20250505_170912_S Bot](https://github.com/user-attachments/assets/59a3d704-6464-435e-9bf3-1ca706ee8b77)
 
-Gemini API (via REST or client SDK)
 
-Hilt for DI
+![Screenshot_20250505_170912_S Bot](https://github.com/user-attachments/assets/55724734-cd74-4c0a-ab99-cdc92f2589e0)
 
-Coroutine-based architecture
+-->
